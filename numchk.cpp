@@ -1,7 +1,8 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
+#include<iostream.h>
+
+int main()
 {
+  int num;
 cout<<"Enter number";
 cin>>num;
 if(num>0)
@@ -16,4 +17,5 @@ else
 {
 cout<<"Number: "<<num<<"is a Negative number";
 }
+return 0;
 }
